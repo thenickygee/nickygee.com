@@ -1,6 +1,5 @@
 # Clone of nickygee.com
 
-## Framework clone of nickygee.com.
 ![nickygee com](https://github.com/thenickygee/nickygee.com/assets/75292383/ee4098f2-fb86-4265-83cd-51b24be0a019)
 ![website](https://github.com/thenickygee/nickygee.com/assets/75292383/37581cc9-5767-40cb-8b73-2a0130d20f29)
 
@@ -125,3 +124,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](#).
