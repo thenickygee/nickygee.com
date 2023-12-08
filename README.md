@@ -12,6 +12,82 @@ A next.js site build with tailwind.css enhanced with framer motion and headlessU
 - Email sign up.
 - Certificates.
 
+## Code
+All components are build with consts and mapping functions for scalabity: 
+``` javascript
+
+'use client';
+import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithub ...
+} from '@fortawesome/free-brands-svg-icons';
+
+const Socials = () => {
+  const [projects, setSocials] = useState([]);
+
+  useEffect(() => {
+    setSocials([
+      {
+        id: 1,
+        title: 'LinkedIn',
+        description: '',
+        icon: faLinkedin,
+        link: 'https://www.linkedin.com/in/thenickygee/',
+        backgroundColor: 'bg-blue-800',
+        hoverbg: 'hover:bg-blue-700',
+      },
+      {
+        id: 2,
+        title: 'Github',
+        description: '',
+        icon: faGithub,
+        link: 'https://github.com/thenickygee',
+        backgroundColor: 'bg-zinc-800',
+        hoverbg: 'hover:bg-zinc-950',
+      },
+    ]);
+  }, []);
+
+  return (
+    <div className='mx-auto w-full flex '>
+      <div className='grid grid-cols-2 gap-2 w-full'>
+        {projects.map((project) => (
+          <motion.div
+            key={project.id}
+            className=' shadow-sm w-full border-zinc-950 border-2 rounded-lg cursor-pointer hover:shadow-md transition-shadow select-none'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
+          >
+            {project.link && (
+              <button className='w-full'>
+                <Link
+                  href={project.link}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className={`${project.backgroundColor} ${project.hoverbg} shadow-sm p-1 h-14 px-3 flex justify-between items-center align-middle gap-2 font-semibold rounded-md text-gray-300 hover:text-gray-200 w-full transitions duration-150`}
+                  >
+                    <FontAwesomeIcon icon={project.icon} className='h-5 w-5' />{' '}
+                    {project.title}
+                  </button>
+                </Link>
+              </button>
+            )}
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Socials;
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 # Getting Started
