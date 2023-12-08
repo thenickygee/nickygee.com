@@ -1,6 +1,5 @@
 # Clone of nickygee.com
-
-![nickygee com](https://github.com/thenickygee/nickygee.com/assets/75292383/ee4098f2-fb86-4265-83cd-51b24be0a019)
+![nickygeewebsite](https://github.com/thenickygee/nickygee.com/assets/75292383/f94da6f5-dc5c-4c0c-97b5-fe561fa48627)
 ![website](https://github.com/thenickygee/nickygee.com/assets/75292383/37581cc9-5767-40cb-8b73-2a0130d20f29)
 
 ## Features
