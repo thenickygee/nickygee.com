@@ -1,15 +1,20 @@
 # Clone of nickygee.com
 
-## working and ready clone of nickygee.com.
+## Framework clone of nickygee.com.
 ![website](https://github.com/thenickygee/nickygee.com/assets/75292383/37581cc9-5767-40cb-8b73-2a0130d20f29)
 
 ## Features
-A next.js site build with tailwind.css enhanced with framer motion. 
-
+A next.js site build with tailwind.css enhanced with framer motion and headlessUI.
+- Terminal emulated header.
+- Social links with Font Awesome Business Icons.
+- Tools with tool tip.
+- Contact form.
+- Email sign up.
+- Certificates.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Getting Started
 
 First, run the development server:
 
