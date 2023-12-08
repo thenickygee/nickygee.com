@@ -1,5 +1,7 @@
-#Clone of nickygee.com
+# Clone of nickygee.com
+
 ## working and ready clone of nickygee.com.
+![Uploading screencapture-localhost-3000-2023-12-07-19_21_04.png…]()
 
 ## Features
 A next.js site build with tailwind.css enhanced with framer motion. 
