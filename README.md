@@ -1,7 +1,7 @@
 # Clone of nickygee.com
 
 ## working and ready clone of nickygee.com.
-![Uploading screencapture-localhost-3000-2023-12-07-19_21_04.png…]()
+![website](https://github.com/thenickygee/nickygee.com/assets/75292383/37581cc9-5767-40cb-8b73-2a0130d20f29)
 
 ## Features
 A next.js site build with tailwind.css enhanced with framer motion. 
