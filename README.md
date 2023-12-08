@@ -1,3 +1,10 @@
+#Clone of nickygee.com
+## working and ready clone of nickygee.com.
+
+## Features
+A next.js site build with tailwind.css enhanced with framer motion. 
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
